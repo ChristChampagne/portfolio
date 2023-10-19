@@ -33,6 +33,7 @@ nav li {
 nav li:hover {
     color: white;
     cursor: pointer;
+    border-bottom: 1px solid white;
 }
 
 .nav-decoration {
@@ -52,26 +53,46 @@ nav li:hover {
 .resume-btn:hover {
     outline: 1px solid white;
     color: white;
+
 }
 
 .top-main-container{
     width: 100%;
-    text-align: center;
-    margin-top:12vmin
+    margin-top:15vmin
+}
+
+.code-quotes{
+    color: #51D4BA;
 }
 
 .top-main-container-first-line{
     color: #51D4BA  ;
+    font-family: 'Roboto Mono', monospace;  
+    text-align: center;
+    font-size: 2rem;
+
 }
 
-.top-main-container-name{
+.top-main-container-title{
     color: #CCD6F6;
-    font-family: 'Fjalla One', sans-serif; 
-    font-size: 3.5rem; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem; 
+    text-align: center;
+
+}
+
+.top-main-container-subtitle{
+    color: #8890B0;
+    font-family: 'Roboto Mono', monospace;  
+    font-size: 1.5rem; 
+    text-align: center;
 }
 
 .top-main-container-description{
-    
+    font-family: 'Roboto Mono', monospace;  
+    color: #8892B0;
+    margin: 1rem;
+    text-align: center; 
 }
 
 
