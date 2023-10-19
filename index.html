@@ -14,143 +14,153 @@
 
     <nav>
         <ul>
-            <li><span class="nav-decoration">01. </span> mainIntroduction()</li>
-            <li><span class="nav-decoration">02. </span> myExperience()</li>
-            <li><span class="nav-decoration">03. </span> myWork()</li>
-            <li><span class="nav-decoration">04. </span> contactMe()</li>
-            <li><input type="button" style="" value="Resume" class="resume-btn" id="resume-btn"></li>
+            <li> <span class="nav-decoration">01. </span> <a href="#main-introduction">mainIntroduction()</a></li>
+            <li><span class="nav-decoration">02. </span> <a href="#my-experience">myExperience()</a></li>
+            <li><span class="nav-decoration">03. </span> <a href="#my-experience">myWork()</a></li>
+            <li><span class="nav-decoration">04. </span>
+                <a href="#contact-me">contactMe()</a>
+            </li>
+            <li><a  href="assets/pdf/ChristianResume.pdf"   class="resume-btn" id="resume-btn">Resume</a></li>
         </ul>
     </nav>
 
-    <!-- <div class="top-main-container">
-        <div class="top-main-container-first-line">
-            // Function to create an introduction
-        </div>
-        <div class="top-main-container-title">
-            <span class="code-quotes"><</span> Christian Rodriguez <span class="code-quotes">/></span>
-        </div>
-        
-        <div class="top-main-container-subtitle">
-           I'm a def FullstackSoftwareDeveloper:    
-        </div>
+    <section id="main-introduction">
+        <div class="main-container">
+            <div class="main-container-first-line">
+                // Function to create an introduction
+            </div>
+            <div class="main-container-title">
+                "use strict";
+            </div>
+            <div class="main-container-title">
+                <span class="blue">function</span> <span class="green">MainIntroduction</span>(){
+            </div>
+            <div class="main-container-subtitle">
+                console.<span class="green">log</span>("My name is Christian Rodriguez")
+            </div>
+            <div class="main-container-subtitle">
+                console.<span class="green">log</span>("I'm an Engineer")
+            </div>
+            <div class="main-container-subtitle">
+                console.<span class="green">log</span>('I create things on the computer')
+            </div>
+            <div class="main-container-subtitle">
+                console.log('')
+            </div>
 
-        <div class="top-main-container-description">
-            Soy un ingeniero de software altamente especializado en la creación de aplicaciones multiplataforma. Mi enfoque se centra en la implementación de tecnologías emergentes y altamente demandadas en la actualidad. Si bien mi enfoque principal es el desarrollo de software, ocasionalmente me aventuro en el diseño gráfico para enriquecer aún más mis proyectos.
+            <div class="main-container-title">
+                }
+            </div>
         </div>
-    </div> -->
+    </section>
 
 
-    <div class="main-container">
-        <div class="main-container-first-line">
-            // Function to create an introduction
-        </div>
-        <div class="main-container-title">
-            "use strict";
-        </div>
-        <div class="main-container-title">
-            function MainIntroduction(){
-        </div>
-        <div class="main-container-subtitle">
-            console.log("My name is Christian Rodriguez")
-        </div>
-        <div class="main-container-subtitle">
-            console.log("I'm an Engineer")
-        </div>
-        <div class="main-container-subtitle">
-            console.log('I create things on the computer')
-        </div>
-        <div class="main-container-subtitle">
-            console.log('')
-        </div>
+    <section id="my-experience">
+        <div class="main-container">
+            <div class="main-container-first-line">
+                // Function to describe my work experience
+            </div>
 
-        <div class="main-container-title">
-            }
-        </div>
+            <div class="main-container-title">
+                <span class="blue">function</span>  <span class="green">myExperience</span>(){
+            </div>
 
-    </div>
+            <div class="main-container-subtitle">
+                <span class="blue">const</span> mainProgramLangs = ['javascript','php','python','ts','java']
+            </div>
 
-    <div class="main-container">
-        <div class="main-container-first-line">
-            // Function to describe my work experience
-        </div>
+            <div class="main-container-subtitle">
+                <span class="blue">const</span> dbms = ['mysql','mongodb','postrgresql']
+            </div>
 
-        <div class="main-container-title">
-            function myExperience(){
-        </div>
+            <div class="main-container-subtitle">
+                <span class="blue">var</span> recentWorks = {
+            </div>
+            <div class="main-container-subtitle">
+                work_1:{
+            </div>
+            <div class="main-container-subtitle">
 
-        <div class="main-container-subtitle">
-            var mainProgramLangs = ['javascript','php','python','ts','java']
-        </div>
+            </div>
+            <div class="main-container-subtitle">
+                "ProjectName":"Advertising and appointment scheduler",
+            </div>
+            <div class="main-container-subtitle">
+                "CompanyName":"Toltekianni Tattoos",
+            </div>
+            <div class="main-container-subtitle">
+                "ProjectDescription":"To create and design a advertising site and an appointment scheduler for
+                Toltekianni
+                Tattoos Inc.",
+            </div>
+            <div class="main-container-subtitle">
+                "TechnologiesUsed":"js,php,html,css,jquery,bootstrap",
+            </div>
+            <div class="main-container-subtitle">
+                "projectTotalTime":"3 Months",
+            </div>
+            <div class="main-container-subtitle">
+                },
+            </div>
 
-        <div class="main-container-subtitle">
-            var dbms = ['mysql','mongodb','postrgresql']
-        </div>
+            <!-- 2 -->
+            <div class="main-container-subtitle">
+                work_2:{
+            </div>
+            <div class="main-container-subtitle">
 
-        <div class="main-container-subtitle">
-            var latestWorks = [
-        </div>
-        <div class="main-container-subtitle">
-            {
-        </div>
-        <div class="main-container-subtitle">
+            </div>
+            <div class="main-container-subtitle">
+                "ProjectName":"In-house automotive spare parts catalogue",
+            </div>
+            <div class="main-container-subtitle">
+                "CompanyName":"Refacciones Victorino",
+            </div>
+            <div class="main-container-subtitle">
+                "ProjectDescription":"Develop an interactive catalog designed to assist users in efficiently searching
+                and
+                locating parts within a local network database",
+            </div>
+            <div class="main-container-subtitle">
+                "TechnologiesUsed":"js,php,html,css,jquery,bootstrap",
+            </div>
+            <div class="main-container-subtitle">
+                "projectTotalTime":"1 Year 1 Month",
+            </div>
+            <div class="main-container-subtitle">
+                },
+            </div>
 
-        </div>
-        <div class="main-container-subtitle">
-            "ProjectName":"Advertising and appointment scheduler",
-        </div>
-        <div class="main-container-subtitle">
-            "CompanyName":"Toltekianni Tattoos",
-        </div>
-        <div class="main-container-subtitle">
-            "ProjectDescription":"To create and design a advertising site and an appointment scheduler for Toltekianni
-            Tattoos Inc.",
-        </div>
-        <div class="main-container-subtitle">
-            "TechnologiesUsed":"js,php,html,css,jquery,bootstrap",
-        </div>
-        <div class="main-container-subtitle">
-            "projectTotalTime":"3 Months",
-        </div>
-        <div class="main-container-subtitle">
-            },
-        </div>
+            <div class="main-container-subtitle">};
+            </div>
 
-        <!-- 2 -->
-        <div class="main-container-subtitle">
-            {
-        </div>
-        <div class="main-container-subtitle">
+            <div class="main-container-title">
+                }
+            </div>
 
         </div>
-        <div class="main-container-subtitle">
-            "ProjectName":"In-house automotive spare parts catalogue",
-        </div>
-        <div class="main-container-subtitle">
-            "CompanyName":"Refacciones Victorino",
-        </div>
-        <div class="main-container-subtitle">
-            "ProjectDescription":"Develop an interactive catalog designed to assist users in efficiently searching and
-            locating parts within a local network database",
-        </div>
-        <div class="main-container-subtitle">
-            "TechnologiesUsed":"js,php,html,css,jquery,bootstrap",
-        </div>
-        <div class="main-container-subtitle">
-            "projectTotalTime":"1 Year 1 Month",
-        </div>
-        <div class="main-container-subtitle">
-            },
-        </div>
+    </section>
 
-        <div class="main-container-subtitle">];
+
+    <section id="contact-me">
+        <div class="main-container">
+            <div class="main-container-first-line">
+                // Function to get in touch with me
+            </div>
+
+            <div class="main-container-title">
+                <span class="blue">function</span> <span class="green">contactMe</span>(){
+            </div>
+
+            <div class="main-container-subtitle">
+                <a href="mailto:l.aloeduardo@live.com.mx">window.open('mailto:l.aloeduardo@live.com.mx')</a>
+            </div>
+            <div class="main-container-title">
+                }
+            </div>
+
         </div>
-
-        <div class="main-container-title">
-            }
-        </div>
-
-    </div>
-
+    </section>
 
 
 

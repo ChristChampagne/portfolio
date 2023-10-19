@@ -30,10 +30,15 @@ nav li {
     font-weight: bold;
 }
 
-nav li:hover {
+nav li a:hover {
     color: white;
     cursor: pointer;
     border-bottom: 1px solid white;
+}
+
+nav li a{
+    text-decoration: none !important;
+    color: #8892B0;
 }
 
 .nav-decoration {
@@ -58,8 +63,9 @@ nav li:hover {
 
 .main-container{
     width: 100%;
-    margin-top:15vmin;
+    margin-top:16vmin;
     margin-bottom:15vmin;
+    text-decoration: none;
 }
 
 .code-quotes{
@@ -88,6 +94,7 @@ nav li:hover {
     font-size: 1.5rem; 
     text-align: center;
     margin-top:.5rem;
+    text-decoration: none;
 }
 
 .main-container-description{
@@ -97,6 +104,13 @@ nav li:hover {
     text-align: center; 
 }
 
+.blue{
+    color: #57c3ea;
+}
+
+.green{
+    color:#19c586;
+}
 
 
 
