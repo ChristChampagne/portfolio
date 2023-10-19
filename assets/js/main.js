@@ -2,7 +2,7 @@
 "use strict";
 function MainIntroduction() {
     console.log("My name is Christian Rodriguez")
-    console.log("I'm an Engineer")
+    console.log("I'm a Software Engineer")
     console.log('I develope multiplatform things')
     console.log('In some cases I do graphic designs and UI/UX')
 }
@@ -32,4 +32,4 @@ function myExperience() {
 // Function to get in touch with me
 function contactMe() {
     window.open('mailto:l.aloeduardo@live.com.mx')
-}   
+}
