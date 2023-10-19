@@ -26,8 +26,8 @@ function myExperience() {
             "projectTotalTime": "1 Year 1 Month",
         },
     };
-    console.log('recentWorks.work_1')
-    console.log('recentWorks.work_2')
+    console.log(recentWorks.work_1)
+    console.log(recentWorks.work_2)
 }
 // Function to get in touch with me
 function contactMe() {
