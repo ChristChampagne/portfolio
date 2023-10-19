@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital@1&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+body {
+    margin: 0;
+    background-color: #0A192F;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+nav li {
+    margin-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    color: #8892B0;
+    padding-left: 1.8rem;
+    font-weight: bold;
+}
+
+nav li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-decoration {
+    color: #42A895
+}
+
+.resume-btn {
+    background: none;
+    border: none;
+    outline: 1px solid #42A895;
+    color: #42A895;
+    padding: .5rem;
+    border-radius: .3rem;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    outline: 1px solid white;
+    color: white;
+}
+
+.top-main-container{
+    width: 100%;
+    text-align: center;
+    margin-top:12vmin
+}
+
+.top-main-container-first-line{
+    color: #51D4BA  ;
+}
+
+.top-main-container-name{
+    color: #CCD6F6;
+    font-family: 'Fjalla One', sans-serif; 
+    font-size: 3.5rem; 
+}
+
+.top-main-container-description{
+    
+}
+
+
+
+
+/* nav .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1rem ;
+}
+
+
+nav li{
+    margin-top: 2rem;
+    color: #8892B0      ;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    align-content: flex-end;
+    list-style: none;
+    font-weight: bold;
+}
+
+.resume-btn{
+    background: none;
+    border: none;
+    outline: 1px solid #42A895  ;
+    color: #42A895;
+    padding: .5rem;
+    border-radius: .3rem;
+    font-weight: bold;
+}
+
+.nav-decoration{
+    color:#42A895   
+}
+
+
+
+ */
