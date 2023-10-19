@@ -8,19 +8,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
 </head>
 
 <body>
 
     <nav>
         <ul>
-            <li> <span class="nav-decoration">01. </span> <a href="#main-introduction">mainIntroduction()</a></li>
-            <li><span class="nav-decoration">02. </span> <a href="#my-experience">myExperience()</a></li>
-            <li><span class="nav-decoration">03. </span> <a href="#my-experience">myWork()</a></li>
-            <li><span class="nav-decoration">04. </span>
+            <li> <span class="nav-decoration">01. </span> <a href="#main-introduction" onclick="MainIntroduction()">mainIntroduction()</a></li>
+            <li><span class="nav-decoration">02. </span> <a href="#my-experience" onclick="myExperience()">myExperience()</a></li>
+            <li><span class="nav-decoration">03. </span> <a href="#my-experience" onclick="myExperience()">myWork()</a></li>
+            <li><span class="nav-decoration" onclick="contactMe()">04. </span>
                 <a href="#contact-me">contactMe()</a>
             </li>
-            <li><a  href="assets/pdf/ChristianResume.pdf"   class="resume-btn" id="resume-btn">Resume</a></li>
+            <li><a href="assets/pdf/ChristianResume.pdf" class="resume-btn" id="resume-btn">Resume</a></li>
         </ul>
     </nav>
 
@@ -42,10 +43,10 @@
                 console.<span class="green">log</span>("I'm an Engineer")
             </div>
             <div class="main-container-subtitle">
-                console.<span class="green">log</span>('I create things on the computer')
+                console.<span class="green">log</span>('I develope multiplatform things')
             </div>
             <div class="main-container-subtitle">
-                console.log('')
+                console.<span class="green">log</span>('In some cases I do graphic designs and UI/UX')
             </div>
 
             <div class="main-container-title">
@@ -62,7 +63,7 @@
             </div>
 
             <div class="main-container-title">
-                <span class="blue">function</span>  <span class="green">myExperience</span>(){
+                <span class="blue">function</span> <span class="green">myExperience</span>(){
             </div>
 
             <div class="main-container-subtitle">
@@ -132,6 +133,13 @@
             </div>
 
             <div class="main-container-subtitle">};
+            </div>
+            <div class="main-container-subtitle">
+                console.<span class="green">log</span>('recentWorks.<span class="blue">work_1</span>')
+            </div>
+
+            <div class="main-container-subtitle">
+                console.<span class="green">log</span>('recentWorks.<span class="blue">work_2</span>')
             </div>
 
             <div class="main-container-title">
