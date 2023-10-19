@@ -56,16 +56,17 @@ nav li:hover {
 
 }
 
-.top-main-container{
+.main-container{
     width: 100%;
-    margin-top:15vmin
+    margin-top:15vmin;
+    margin-bottom:15vmin;
 }
 
 .code-quotes{
     color: #51D4BA;
 }
 
-.top-main-container-first-line{
+.main-container-first-line{
     color: #51D4BA  ;
     font-family: 'Roboto Mono', monospace;  
     text-align: center;
@@ -73,7 +74,7 @@ nav li:hover {
 
 }
 
-.top-main-container-title{
+.main-container-title{
     color: #CCD6F6;
     font-family: 'Roboto Mono', monospace;
     font-size: 3rem; 
@@ -81,14 +82,15 @@ nav li:hover {
 
 }
 
-.top-main-container-subtitle{
+.main-container-subtitle{
     color: #8890B0;
     font-family: 'Roboto Mono', monospace;  
     font-size: 1.5rem; 
     text-align: center;
+    margin-top:.5rem;
 }
 
-.top-main-container-description{
+.main-container-description{
     font-family: 'Roboto Mono', monospace;  
     color: #8892B0;
     margin: 1rem;
